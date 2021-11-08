@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/hongdae/dev/workspace/Cpp/5_class_and_object/Counter.h
+
+C:/Users/hongdae/dev/workspace/Cpp/5_class_and_object/main.cpp
+iostream
+-
+Counter.h
+C:/Users/hongdae/dev/workspace/Cpp/5_class_and_object/Counter.h
+
