@@ -74,17 +74,38 @@ CMakeFiles\5.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\5.dir\main.cpp.s /c C:\Users\hongdae\dev\workspace\Cpp\5_class_and_object\main.cpp
 <<
 
+CMakeFiles\5.dir\Person.cpp.obj: CMakeFiles\5.dir\flags.make
+CMakeFiles\5.dir\Person.cpp.obj: ..\Person.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hongdae\dev\workspace\Cpp\5_class_and_object\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/5.dir/Person.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\5.dir\Person.cpp.obj /FdCMakeFiles\5.dir\ /FS -c C:\Users\hongdae\dev\workspace\Cpp\5_class_and_object\Person.cpp
+<<
+
+CMakeFiles\5.dir\Person.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/5.dir/Person.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\5.dir\Person.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hongdae\dev\workspace\Cpp\5_class_and_object\Person.cpp
+<<
+
+CMakeFiles\5.dir\Person.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/5.dir/Person.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\5.dir\Person.cpp.s /c C:\Users\hongdae\dev\workspace\Cpp\5_class_and_object\Person.cpp
+<<
+
 # Object files for target 5
 5_OBJECTS = \
-"CMakeFiles\5.dir\main.cpp.obj"
+"CMakeFiles\5.dir\main.cpp.obj" \
+"CMakeFiles\5.dir\Person.cpp.obj"
 
 # External object files for target 5
 5_EXTERNAL_OBJECTS =
 
 5.exe: CMakeFiles\5.dir\main.cpp.obj
+5.exe: CMakeFiles\5.dir\Person.cpp.obj
 5.exe: CMakeFiles\5.dir\build.make
 5.exe: CMakeFiles\5.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\hongdae\dev\workspace\Cpp\5_class_and_object\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 5.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\hongdae\dev\workspace\Cpp\5_class_and_object\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable 5.exe"
 	C:\Users\hongdae\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\5.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\5.dir\objects1.rsp @<<
  /out:5.exe /implib:5.lib /pdb:C:\Users\hongdae\dev\workspace\Cpp\5_class_and_object\cmake-build-debug\5.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

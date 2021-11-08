@@ -85,6 +85,12 @@
 		<Unit filename="C:/Users/hongdae/dev/workspace/Cpp/5_class_and_object/Counter.h">
 			<Option target="5"/>
 		</Unit>
+		<Unit filename="C:/Users/hongdae/dev/workspace/Cpp/5_class_and_object/Person.cpp">
+			<Option target="5"/>
+		</Unit>
+		<Unit filename="C:/Users/hongdae/dev/workspace/Cpp/5_class_and_object/Person.h">
+			<Option target="5"/>
+		</Unit>
 		<Unit filename="C:/Users/hongdae/dev/workspace/Cpp/5_class_and_object/main.cpp">
 			<Option target="5"/>
 		</Unit>
