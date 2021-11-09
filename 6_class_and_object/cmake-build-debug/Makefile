@@ -118,6 +118,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6_class_and_object.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6_class_and_object.dir\build
 .PHONY : 6_class_and_object\fast
 
+NamedObj.obj: NamedObj.cpp.obj
+.PHONY : NamedObj.obj
+
+# target to build an object file
+NamedObj.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6_class_and_object.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6_class_and_object.dir\NamedObj.cpp.obj
+.PHONY : NamedObj.cpp.obj
+
+NamedObj.i: NamedObj.cpp.i
+.PHONY : NamedObj.i
+
+# target to preprocess a source file
+NamedObj.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6_class_and_object.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6_class_and_object.dir\NamedObj.cpp.i
+.PHONY : NamedObj.cpp.i
+
+NamedObj.s: NamedObj.cpp.s
+.PHONY : NamedObj.s
+
+# target to generate assembly for a file
+NamedObj.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6_class_and_object.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6_class_and_object.dir\NamedObj.cpp.s
+.PHONY : NamedObj.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -151,6 +175,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 6_class_and_object
+	@echo ... NamedObj.obj
+	@echo ... NamedObj.i
+	@echo ... NamedObj.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

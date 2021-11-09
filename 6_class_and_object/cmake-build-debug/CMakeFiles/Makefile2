@@ -70,12 +70,12 @@ clean: CMakeFiles\6_class_and_object.dir\clean
 CMakeFiles\6_class_and_object.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6_class_and_object.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6_class_and_object.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6_class_and_object.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6_class_and_object.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hongdae\dev\workspace\Cpp\6_class_and_object\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target 6_class_and_object"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hongdae\dev\workspace\Cpp\6_class_and_object\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target 6_class_and_object"
 .PHONY : CMakeFiles\6_class_and_object.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\6_class_and_object.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hongdae\dev\workspace\Cpp\6_class_and_object\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hongdae\dev\workspace\Cpp\6_class_and_object\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\6_class_and_object.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hongdae\dev\workspace\Cpp\6_class_and_object\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\6_class_and_object.dir\rule

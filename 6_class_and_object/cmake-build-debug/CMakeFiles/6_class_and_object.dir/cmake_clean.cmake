@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "6_class_and_object.exe.manifest"
   "6_class_and_object.lib"
   "6_class_and_object.pdb"
+  "CMakeFiles/6_class_and_object.dir/NamedObj.cpp.obj"
   "CMakeFiles/6_class_and_object.dir/main.cpp.obj"
 )
 

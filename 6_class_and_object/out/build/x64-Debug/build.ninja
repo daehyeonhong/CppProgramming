@@ -50,6 +50,13 @@ build CMakeFiles\6_class_and_object.dir\main.cpp.obj: CXX_COMPILER__6_class_and_
   TARGET_COMPILE_PDB = CMakeFiles\6_class_and_object.dir\
   TARGET_PDB = 6_class_and_object.pdb
 
+build CMakeFiles\6_class_and_object.dir\NamedObj.cpp.obj: CXX_COMPILER__6_class_and_object_Debug ..\..\..\NamedObj.cpp || cmake_object_order_depends_target_6_class_and_object
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++14
+  OBJECT_DIR = CMakeFiles\6_class_and_object.dir
+  OBJECT_FILE_DIR = CMakeFiles\6_class_and_object.dir
+  TARGET_COMPILE_PDB = CMakeFiles\6_class_and_object.dir\
+  TARGET_PDB = 6_class_and_object.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 6_class_and_object
@@ -58,7 +65,7 @@ build CMakeFiles\6_class_and_object.dir\main.cpp.obj: CXX_COMPILER__6_class_and_
 #############################################
 # Link the executable 6_class_and_object.exe
 
-build 6_class_and_object.exe: CXX_EXECUTABLE_LINKER__6_class_and_object_Debug CMakeFiles\6_class_and_object.dir\main.cpp.obj
+build 6_class_and_object.exe: CXX_EXECUTABLE_LINKER__6_class_and_object_Debug CMakeFiles\6_class_and_object.dir\main.cpp.obj CMakeFiles\6_class_and_object.dir\NamedObj.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
