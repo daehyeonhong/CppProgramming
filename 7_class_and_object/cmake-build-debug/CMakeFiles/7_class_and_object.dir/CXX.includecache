@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/hongdae/dev/workspace/Cpp/7_class_and_object/C1Main.cpp
+iostream
+-
+Complex1.h
+C:/Users/hongdae/dev/workspace/Cpp/7_class_and_object/Complex1.h
+
+C:/Users/hongdae/dev/workspace/Cpp/7_class_and_object/Complex1.cpp
+iostream
+-
+Complex1.h
+C:/Users/hongdae/dev/workspace/Cpp/7_class_and_object/Complex1.h
+
+C:/Users/hongdae/dev/workspace/Cpp/7_class_and_object/Complex1.h
+
