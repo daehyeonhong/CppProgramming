@@ -6,8 +6,8 @@
 using namespace std;
 
 void f() {
-    NamedObj x("third");// ¼¼ ¹øÂ° °´Ã¼ÀÇ »ı¼º
-    x.display();// ÇÔ¼ö ¹İÈ¯ ÈÄ x´Â ¼Ò¸êµÊ
+    NamedObj x("third");// ì„¸ ë²ˆì§¸ ê°ì²´ì˜ ìƒì„±
+    x.display();// í•¨ìˆ˜ ë°˜í™˜ í›„ xëŠ” ì†Œë©¸ë¨
 }
 
 int main() {
@@ -25,16 +25,16 @@ int main() {
     v3.print();
     cout << endl;
 
-    cout << "NamedObj Å¬·¡½ºÀÇ °´Ã¼ ¼ö : " << NamedObj::nObj() << endl;
+    cout << "NamedObj í´ë˜ìŠ¤ì˜ ê°ì²´ ìˆ˜ : " << NamedObj::nObj() << endl;
 
-    NamedObj ff("First");// Ã¹ ¹øÂ° °´Ã¼ »ı¼º
-    NamedObj s("Second");// µÎ ¹øÂ° °´Ã¼ »ı¼º
-    cout << "NamedObj Å¬·¡½ºÀÇ °´Ã¼ ¼ö : " << NamedObj::nObj() << endl;
+    NamedObj ff("First");// ì²« ë²ˆì§¸ ê°ì²´ ìƒì„±
+    NamedObj s("Second");// ë‘ ë²ˆì§¸ ê°ì²´ ìƒì„±
+    cout << "NamedObj í´ë˜ìŠ¤ì˜ ê°ì²´ ìˆ˜ : " << NamedObj::nObj() << endl;
 
     f();
-    NamedObj c("Fourth");// ³× ¹øÂ° °´Ã¼ »ı¼º
+    NamedObj c("Fourth");// ë„¤ ë²ˆì§¸ ê°ì²´ ìƒì„±
     c.display();
-    cout << "NamedObj Å¬·¡½ºÀÇ °´Ã¼ ¼ö : " << NamedObj::nObj() << endl;
+    cout << "NamedObj í´ë˜ìŠ¤ì˜ ê°ì²´ ìˆ˜ : " << NamedObj::nObj() << endl;
 
     return 0;
 }
