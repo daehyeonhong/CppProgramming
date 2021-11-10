@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/hongdae/dev/workspace/Cpp/6/CharStack/CSMain.cpp
+iostream
+-
+CharStack.h
+C:/Users/hongdae/dev/workspace/Cpp/6/CharStack/CharStack.h
+
+C:/Users/hongdae/dev/workspace/Cpp/6/CharStack/CharStack.h
+
