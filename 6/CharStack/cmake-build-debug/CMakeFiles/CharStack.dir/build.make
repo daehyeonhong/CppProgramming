@@ -74,17 +74,38 @@ CMakeFiles\CharStack.dir\CSMain.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CharStack.dir\CSMain.cpp.s /c C:\Users\hongdae\dev\workspace\Cpp\6\CharStack\CSMain.cpp
 <<
 
+CMakeFiles\CharStack.dir\CharStack.cpp.obj: CMakeFiles\CharStack.dir\flags.make
+CMakeFiles\CharStack.dir\CharStack.cpp.obj: ..\CharStack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hongdae\dev\workspace\Cpp\6\CharStack\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CharStack.dir/CharStack.cpp.obj"
+	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1430~1.307\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CharStack.dir\CharStack.cpp.obj /FdCMakeFiles\CharStack.dir\ /FS -c C:\Users\hongdae\dev\workspace\Cpp\6\CharStack\CharStack.cpp
+<<
+
+CMakeFiles\CharStack.dir\CharStack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CharStack.dir/CharStack.cpp.i"
+	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1430~1.307\bin\Hostx86\x86\cl.exe > CMakeFiles\CharStack.dir\CharStack.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hongdae\dev\workspace\Cpp\6\CharStack\CharStack.cpp
+<<
+
+CMakeFiles\CharStack.dir\CharStack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CharStack.dir/CharStack.cpp.s"
+	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1430~1.307\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CharStack.dir\CharStack.cpp.s /c C:\Users\hongdae\dev\workspace\Cpp\6\CharStack\CharStack.cpp
+<<
+
 # Object files for target CharStack
 CharStack_OBJECTS = \
-"CMakeFiles\CharStack.dir\CSMain.cpp.obj"
+"CMakeFiles\CharStack.dir\CSMain.cpp.obj" \
+"CMakeFiles\CharStack.dir\CharStack.cpp.obj"
 
 # External object files for target CharStack
 CharStack_EXTERNAL_OBJECTS =
 
 CharStack.exe: CMakeFiles\CharStack.dir\CSMain.cpp.obj
+CharStack.exe: CMakeFiles\CharStack.dir\CharStack.cpp.obj
 CharStack.exe: CMakeFiles\CharStack.dir\build.make
 CharStack.exe: CMakeFiles\CharStack.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\hongdae\dev\workspace\Cpp\6\CharStack\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CharStack.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\hongdae\dev\workspace\Cpp\6\CharStack\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CharStack.exe"
 	C:\Users\hongdae\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\CharStack.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1430~1.307\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\CharStack.dir\objects1.rsp @<<
  /out:CharStack.exe /implib:CharStack.lib /pdb:C:\Users\hongdae\dev\workspace\Cpp\6\CharStack\cmake-build-debug\CharStack.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

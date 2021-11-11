@@ -70,12 +70,12 @@ clean: CMakeFiles\CharStack.dir\clean
 CMakeFiles\CharStack.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CharStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CharStack.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CharStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CharStack.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hongdae\dev\workspace\Cpp\6\CharStack\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target CharStack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hongdae\dev\workspace\Cpp\6\CharStack\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target CharStack"
 .PHONY : CMakeFiles\CharStack.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\CharStack.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hongdae\dev\workspace\Cpp\6\CharStack\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hongdae\dev\workspace\Cpp\6\CharStack\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\CharStack.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hongdae\dev\workspace\Cpp\6\CharStack\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\CharStack.dir\rule

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/hongdae/dev/workspace/Cpp/6/CharStack/CSMain.cpp
+C:/Users/hongdae/dev/workspace/Cpp/6/CharStack/CharStack.cpp
 iostream
 -
 CharStack.h

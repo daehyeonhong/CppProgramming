@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CharStack.dir/CSMain.cpp.obj"
+  "CMakeFiles/CharStack.dir/CharStack.cpp.obj"
   "CharStack.exe"
   "CharStack.exe.manifest"
   "CharStack.lib"

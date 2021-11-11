@@ -3,4 +3,4 @@ project(CharStack)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CharStack CSmain.cpp)
+add_executable(CharStack CSMain.cpp CharStack.cpp CharStack.h)

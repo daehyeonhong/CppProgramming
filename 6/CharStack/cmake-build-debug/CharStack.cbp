@@ -85,6 +85,12 @@
 		<Unit filename="C:/Users/hongdae/dev/workspace/Cpp/6/CharStack/CSMain.cpp">
 			<Option target="CharStack"/>
 		</Unit>
+		<Unit filename="C:/Users/hongdae/dev/workspace/Cpp/6/CharStack/CharStack.cpp">
+			<Option target="CharStack"/>
+		</Unit>
+		<Unit filename="C:/Users/hongdae/dev/workspace/Cpp/6/CharStack/CharStack.h">
+			<Option target="CharStack"/>
+		</Unit>
 		<Unit filename="C:/Users/hongdae/dev/workspace/Cpp/6/CharStack/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -142,6 +142,30 @@ CSMain.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CharStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CharStack.dir\CSMain.cpp.s
 .PHONY : CSMain.cpp.s
 
+CharStack.obj: CharStack.cpp.obj
+.PHONY : CharStack.obj
+
+# target to build an object file
+CharStack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CharStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CharStack.dir\CharStack.cpp.obj
+.PHONY : CharStack.cpp.obj
+
+CharStack.i: CharStack.cpp.i
+.PHONY : CharStack.i
+
+# target to preprocess a source file
+CharStack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CharStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CharStack.dir\CharStack.cpp.i
+.PHONY : CharStack.cpp.i
+
+CharStack.s: CharStack.cpp.s
+.PHONY : CharStack.s
+
+# target to generate assembly for a file
+CharStack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CharStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CharStack.dir\CharStack.cpp.s
+.PHONY : CharStack.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -154,6 +178,9 @@ help:
 	@echo ... CSMain.obj
 	@echo ... CSMain.i
 	@echo ... CSMain.s
+	@echo ... CharStack.obj
+	@echo ... CharStack.i
+	@echo ... CharStack.s
 .PHONY : help
 
 

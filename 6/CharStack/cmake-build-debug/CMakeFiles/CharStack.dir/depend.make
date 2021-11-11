@@ -4,3 +4,6 @@
 CMakeFiles\CharStack.dir\CSMain.cpp.obj: ..\CSMain.cpp
 CMakeFiles\CharStack.dir\CSMain.cpp.obj: ..\CharStack.h
 
+CMakeFiles\CharStack.dir\CharStack.cpp.obj: ..\CharStack.cpp
+CMakeFiles\CharStack.dir\CharStack.cpp.obj: ..\CharStack.h
+
