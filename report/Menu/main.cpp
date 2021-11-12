@@ -4,13 +4,13 @@
 
 using namespace std;
 
-int main() {
-    string option[5] = {"메뉴 객체 생성",
-                        "선택 항목 추가",
-                        "메뉴 내용 출력",
-                        "생성된 메뉴를 이용한 항목 선택",
-                        "종료"};
+string option[5] = {"메뉴 객체 생성",
+                    "선택 항목 추가",
+                    "메뉴 내용 출력",
+                    "생성된 메뉴를 이용한 항목 선택",
+                    "종료"};
 
+int main() {
     Menu menu;
     char status = 1;
     while (status != 5) {
@@ -19,7 +19,6 @@ int main() {
         cout << endl;
         cout << "항목 번호를 선택하시오 : ";
         cin >> status;
-        cout << status << endl;
         int statusInt = status - '0';
         switch (statusInt) {
             case 1:
